@@ -45,3 +45,12 @@ Desired End of Line character. can be `CR` (`\r`), `LF`(`\n`) (Default), `CRLF`(
 
 `encoding`
 Any meaningful encoding that nodejs supports. Default `utf8`. It is advisable to use `utf8` since others are not tested by the devs.
+
+# Contributing
+
+We actively check for issues even for the least used repositories (unless explicitly abandoned). All of our opensource repositories are being used in commercial projects by teamO4 or bbsenterprise. So, it is very likely that we will sort out important issues not long after they are posted.
+
+Please create a github issue if you find a bug or have a feature request.
+
+Pull requests are always welcome for any of our public repos.
+
