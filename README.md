@@ -20,7 +20,21 @@ For using programmatically
 
 # Usage
 
-```bash
+requiring it. the lec variable itself is a function.
+
+```node
+lec = require 'gulp-line-ending-corrector'
+```
+
+simplest version
+
+```node
+.pipe(lec())
+```
+
+with all options
+
+```node
 .pipe(lec({verbose:true, eolc: 'LF', encoding:'utf8'}))
 ```
 
