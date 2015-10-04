@@ -18,6 +18,12 @@ For using programmatically
 [sudo] npm install gulp-line-ending-corrector
 ```
 
+# Usage
+
+```bash
+.pipe(lec({verbose:true, eolc: 'LF', encoding:'utf8'}))
+```
+
 ## Options
 
 `eolc`
