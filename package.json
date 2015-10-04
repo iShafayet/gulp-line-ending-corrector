@@ -1,6 +1,6 @@
 {
     "name": "gulp-line-ending-corrector",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Gulp Plugin for Line Ending Corrector (A utility that makes sure your files have consistent line endings)",
     "main": "index-runner.js",
     "scripts": {
