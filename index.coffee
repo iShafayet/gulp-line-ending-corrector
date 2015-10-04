@@ -21,7 +21,13 @@ module.exports = (opt) ->
 
     try
 
-      [ wasAltered, output ] = LineEndingCorrector.correctSync input, opt
+      [ wasAltered, output ] = LineEndingCorrector.correctSync str, opt
+
+      if typeof opt is 'object' and 'verbose' of opt and opt.verbose
+
+        console.log "lec #{dest} : #{wasAltered}"
+
+
 
     catch err
 

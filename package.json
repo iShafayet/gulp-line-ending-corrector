@@ -30,7 +30,9 @@
   "homepage": "https://github.com/iShafayet/gulp-line-ending-corrector",
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "line-ending-corrector": "0.0.3"
+    "gulp-util": "^3.0.6",
+    "line-ending-corrector": "0.0.3",
+    "through2": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.3.0",
