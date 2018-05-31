@@ -48,7 +48,7 @@ Any meaningful encoding that nodejs supports. Default `utf8`. It is advisable to
 
 # Troubleshooting
 
-1. If you need to ignore binary files, looks at this - https://github.com/iShafayet/gulp-line-ending-corrector/issues/2#issuecomment-392745133
+1. If you need to ignore binary files, take a look at this - https://github.com/iShafayet/gulp-line-ending-corrector/issues/2#issuecomment-392745133
 
 # Contributing
 
