@@ -1,7 +1,7 @@
 
 { LineEndingCorrector } = require 'line-ending-corrector'
 
-{ PluginError } = require('gulp-util')
+PluginError = require 'plugin-error'
 
 through = require 'through2'
 
